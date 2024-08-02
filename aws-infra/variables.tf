@@ -5,3 +5,7 @@ variable "iam_user_name" {
 variable "aws_instance_type" {
   type = string
 }
+
+variable "aws_security_group_ports" {
+  type = list(number)
+}
