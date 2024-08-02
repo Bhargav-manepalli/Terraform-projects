@@ -12,7 +12,7 @@ data "aws_ami" "name" {
 }
 
 
-resource "aws_iam_user" "name" {
+resource "aws_iam_user" "iam_username" {
   name = var.iam_user_name
 }
 
