@@ -9,3 +9,7 @@ variable "aws_instance_type" {
 variable "aws_security_group_ports" {
   type = list(number)
 }
+
+variable "key_name" {
+  type = string
+}
