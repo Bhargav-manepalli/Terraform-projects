@@ -1,0 +1,7 @@
+1 - VPC
+2 - Subnets ( 1 - public and 1 - private )
+2 - RT ( 1 - public and 1 - private)
+1 - IGW
+1 - NAT 
+
+
